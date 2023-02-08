@@ -1,0 +1,15 @@
+{
+  "name": "js_docs_demo",
+  "version": "1.0.0",
+  "description": "A simple demo of how JS Docs can be used to document code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "jsdoc index.js -c jsdoc.conf.json"
+  },
+  "author": "Sourabh Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "jsdoc": "^4.0.0"
+  }
+}
